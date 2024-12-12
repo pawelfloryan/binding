@@ -100,7 +100,7 @@ img {
 <br>
 <div v-click class="transition-fade">
 
-```c#
+```csharp
 // xamarin
 <Entry Text="{Binding Name, Mode=OneWay}" /> <!-- Zmiana z poziomu ui nie zaktualizuje modelu -->
 
@@ -123,7 +123,7 @@ Name = "nowa nazwa"; // Zostanie zaktualizowane w ui
 <br>
 <div v-click class="transition-fade">
 
-```c#
+```csharp
 // xamarin
 <Entry Text="{Binding Name, Mode=OneWay}" /> <!-- Zmiana z poziomu ui zaktualizuje model -->
 
@@ -146,7 +146,7 @@ Name = "nowa nazwa"; // Zostanie zaktualizowane w ui
 <br>
 <div v-click class="transition-fade">
 
-```c#
+```xml
 // xamarin
 <Entry Text="{Binding Name, Mode=OneWayToSource}" /> <!-- Zmiana z poziomu ui zaktualizuje model -->
 ```
@@ -162,7 +162,7 @@ Name = "nowa nazwa"; // Zostanie zaktualizowane w ui
 <br>
 <div v-click class="transition-fade">
 
-```c#
+```csharp
 // xamarin
 <Entry Text="{Binding Name, Mode=OneTime}" />
 
@@ -175,6 +175,19 @@ public ViewModel() {
 ```
 
 </div>
+
+---
+
+# Przykładowa aplikacja
+
+<img src="/assets/Xaml.webp" v-click class="absolute bottom--35 left-110 opacity-30 transform -rotate-10 transition-fade">
+<img src="/assets/Csharp.webp" v-click class="absolute bottom--35 left-210 opacity-30 transform -rotate-60 transition-fade">
+
+---
+layout: center
+---
+
+# DEMO
 
 ---
 
