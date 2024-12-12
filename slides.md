@@ -180,8 +180,8 @@ public ViewModel() {
 
 # Przykładowa aplikacja
 
-<img src="/assets/Xaml.webp" v-click class="absolute bottom--35 left-110 opacity-30 transform -rotate-10 transition-fade">
-<img src="/assets/Csharp.webp" v-click class="absolute bottom--35 left-210 opacity-30 transform -rotate-60 transition-fade">
+<img src="/assets/Xaml.webp" v-click class="absolute top-10 left-120 opacity-80 transform transition-fade">
+<img src="/assets/Csharp.webp" v-click class="absolute left-10 opacity-80 transform transition-fade">
 
 ---
 layout: center
